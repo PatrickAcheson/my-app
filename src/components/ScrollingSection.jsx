@@ -2,7 +2,7 @@ import React from 'react';
 import './ScrollingSection.css';
 import picture from './2.png'
 import pic1 from './portfolioImage1.jpg'
-import pic2 from './portfolioImage2.jpg'
+import pic2 from './portfolioImage2.png'
 import pic3 from './portfolioImage3.jpg'
 
 export default function ScrollingSection() {

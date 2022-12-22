@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useState } from 'react';
 import './App.css';
 import bightness from './brightness.png';
 import earth from './planet.png';
-import aboutme from './components/ScrollingSection'
+import ScrollingSection from './components/ScrollingSection';
 
 function App() {
   const [dark, setDark] = useState(false);
@@ -58,6 +58,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <h2 className={dark ? 'dark-sig' : 'sig'}>PA</h2>
         <h1 className={dark ? 'dark-title' : 'title'}>Hi, I'm Patrick. I design and build user interfaces.</h1>
         <button className="toggle-button" onClick={() => setDark(!dark)}>
           <img src={bightness} alt="img" />
@@ -71,7 +72,7 @@ function App() {
         </nav>
         <img src={earth} alt="img" className="earth"/>
         <div>
-          <aboutme />
+          <ScrollingSection />
         </div>
       </header>
     </div>

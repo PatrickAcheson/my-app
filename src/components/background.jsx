@@ -1,10 +1,6 @@
 import React, { useRef, useEffect, useState } from 'react';
-import './App.css';
-import bightness from './brightness.png';
-import earth from './planet.png';
-import aboutme from './components/ScrollingSection'
 
-function App() {
+
   const [dark, setDark] = useState(false);
   const canvasRef = useRef(null);
 
@@ -55,27 +51,5 @@ function App() {
     animate();
   }, [dark]);
 
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1 className={dark ? 'dark-title' : 'title'}>Hi, I'm Patrick. I design and build user interfaces.</h1>
-        <button className="toggle-button" onClick={() => setDark(!dark)}>
-          <img src={bightness} alt="img" />
-        </button>
-        <canvas ref={canvasRef} width={window.innerWidth} height={window.innerHeight}></canvas>
-        <nav className={dark ? 'dark-nav' : 'nav'}>
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Projects</a>
-          <a href="#">Contact</a>
-        </nav>
-        <img src={earth} alt="img" className="earth"/>
-        <div>
-          <aboutme />
-        </div>
-      </header>
-    </div>
-  );
-}
 
-export default App;
+export default background;

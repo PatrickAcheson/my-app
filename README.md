@@ -10,12 +10,14 @@ Experience section with details of my work experience and education.<br>
 Contact form for visitors to get in touch with me.
 <b>Technologies Used</b><br>
 
-React.js<br>
-CSS3<br>
-HTML5<br>
-Bootstrap<br>
-GitHub Pages
-<b>Getting Started</b><br>
+- React.js<br>
+- CSS3<br>
+- HTML5<br>
+- Bootstrap<br>
+- GitHub Pages
+
+<b>Getting Started</b>
+<br>
 To get a copy of the website up and running on your local machine for development and testing purposes, follow these steps:<br>
 
 Clone the repository to your local machine.<br>

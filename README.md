@@ -26,3 +26,6 @@ Open the website in your browser at http://localhost:3000.<br>
 <b>License</b><br>
 This project is licensed under the MIT License - see the LICENSE file for details.
 ![image](https://user-images.githubusercontent.com/90014630/219882195-2ef84908-9096-491c-8dee-969b4fa60d81.png)
+![image](https://user-images.githubusercontent.com/90014630/219882349-2050ad0c-1681-4525-85ad-1b4dbbeb84f0.png)
+![image](https://user-images.githubusercontent.com/90014630/219882368-147c7fb9-5daa-42be-bdaa-6e86a0fcdca9.png)
+

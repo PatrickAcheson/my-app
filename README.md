@@ -1,6 +1,8 @@
 <b>My Portfolio</b><br>
 This is my personal portfolio website built with React.js. The website showcases my skills, projects, and experiences in a visually appealing way.
 
+NOTE: This project is no where near finished, and will continue when I have more time :)
+
 <b>Features</b><br>
 
 About me section with a brief introduction and a photo.<br>

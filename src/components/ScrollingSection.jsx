@@ -8,28 +8,28 @@ import pic3 from './portfolioImage3.jpg'
 export default function ScrollingSection() {
   return (
 <div className='main'>
-  <div className="scrolling-section">
-    <div className="personal-info">
-      <img className="profile-pic"src={picture} alt="pic" />
-      <h2>Patrick Acheson</h2>
-      <h3>Undergraduate Student</h3>
-      <div className="social-media-links">
-        <a href="https://www.linkedin.com/in/patrick-acheson-8153a5205/" target="_blank" rel="noopener noreferrer">Linked-In</a>
-        <a href="https://app.hackthebox.com/profile/746594" target="_blank" rel="noopener noreferrer">HackTheBox</a>
-        <a href="https://github.com/PatrickAcheson" target="_blank" rel="noopener noreferrer">Github</a>
+    <div className="scrolling-section">
+      <div className="personal-info">
+        <img className="profile-pic"src={picture} alt="pic" />
+        <h2>Patrick Acheson</h2>
+        <h3>Undergraduate Student</h3>
+        <div className="social-media-links">
+          <a href="https://www.linkedin.com/in/patrick-acheson-8153a5205/" target="_blank" rel="noopener noreferrer">Linked-In</a>
+          <a href="https://app.hackthebox.com/profile/746594" target="_blank" rel="noopener noreferrer">HackTheBox</a>
+          <a href="https://github.com/PatrickAcheson" target="_blank" rel="noopener noreferrer">Github</a>
+        </div>
+      </div>
+      <div className="about-me">
+        <h1>About Me</h1>
+        <p>
+        Hi, my name is Patrick and I am a second year Cyber Security and Forensics student at Edinburgh Napier University.
+        I have a strong passion for programming, particularly in Python. I have experience using Python for various projects such as web scraping, data analysis, and automation tasks. 
+        </p>
+        <p>In addition to my programming skills, I am also proficient in Linux and Windows operating systems and have obtained my CCNA certification in computer networking. I am interested in ethical hacking, reverse engineering, and web development, and have experience with web exploitation and privilege escalation. I am an active member of the cybersecurity community, with profiles on platforms such as Hack The Box and TryHackMe. I am currently seeking a summer internship where I can apply my skills and knowledge in the field of cyber security.
+        </p>
+        <p>I am excited to continue learning and growing as a programmer and cybersecurity professional.</p>
       </div>
     </div>
-    <div className="about-me">
-      <h1>About Me</h1>
-      <p>
-      Hi, my name is Patrick and I am a second year Cyber Security and Forensics student at Edinburgh Napier University.
-      I have a strong passion for programming, particularly in Python. I have experience using Python for various projects such as web scraping, data analysis, and automation tasks. 
-      </p>
-      <p>In addition to my programming skills, I am also proficient in Linux and Windows operating systems and have obtained my CCNA certification in computer networking. I am interested in ethical hacking, reverse engineering, and web development, and have experience with web exploitation and privilege escalation. I am an active member of the cybersecurity community, with profiles on platforms such as Hack The Box and TryHackMe. I am currently seeking a summer internship where I can apply my skills and knowledge in the field of cyber security.
-      </p>
-      <p>I am excited to continue learning and growing as a programmer and cybersecurity professional.</p>
-    </div>
-  </div>
   <div className="projects-section">
   <h1 className="text-center">Projects</h1>
     <div className="container">

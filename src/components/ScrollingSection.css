@@ -6,7 +6,7 @@
 .profile-pic {
   margin-top: 50px;
   border-radius: 50%;
-  width: 15rem; /* set width to 10rem */
+  width: 15rem; /* set width to 15rem */
 }
 
 /* Add styling to the personal-info class */
@@ -14,7 +14,6 @@
   font-family: 'Ubuntu', sans-serif;
   text-align: center;
   justify-content: center;
-  left: left;
   background-color: transparent;
 }
 /* Add styling to the social-media-links class */
@@ -26,6 +25,7 @@
   padding: 20px;
   background-color: #eee;
   border-radius: 5px;
+  display: flex;
 }
 
 /* Add styling to the a elements */
@@ -40,44 +40,41 @@
 .social-media-links a:hover {
   color: #0b8329;
 }
+
 .scrolling-section {
-    display: flex;
-    justify-content: space-around;
-    transform: translate(0, -3%);
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    z-index: 1; /* bring the section to the front of the page */
-    /* add some padding and a background color to the section */
-    padding: 25px;
-    background-color: white;
-  }
-  
+  display: flex;
+  justify-content: space-around;
+  transform: translate(0, -3%);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  padding: 25px;
+  background-color: white;
+}
+
 .about-me {
   background-color: transparent;
   margin-top: 40px;
   font-family: 'Ubuntu', sans-serif;
-  width: 60%; /* Set the width to 50% of the page */
-  text-align: left; /* Align the text to the left */
-  margin: 1 auto; /* Center the div horizontally */
-  margin-left: -1%; /* Shift the div to the right by 25% */
+  width: 60%;
+  text-align: left;
+  margin: 1 auto;
+  margin-left: -1%;
 }
 
-/* Add styling to the p elements */
 .about-me p {
   margin: 10 12; /* Add space above and below each p element */
   line-height: 1.5; /* Increase the line height */
 }
 
 .scrolling-section h1 {
-  /* style the heading */
   margin-top: 0;
   font-size: 2em;
   font-weight: bold;
 }
 
 .scrolling-section p {
-  /* style the paragraph */
   margin-top: 10px;
   font-size: 1.2em;
   line-height: 1.5;
@@ -197,12 +194,39 @@
   z-index: 2; /* bring the element to the front */
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 767px) {
+  .personal-info {
+    font-size: 14px;
+  }
+  .scrolling-section {
+    flex-direction: column;
+  }
+  .about-me {
+    width: 100%;
+  }
+  .project-info {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .card {
+    width: 100%;
+  }
   .row {
     flex-direction: column; /* stack columns vertically */
   }
 
   .column {
     width: 100%; /* set column width to 100% */
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .social-media-links {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .picture {
+    width: 50%;
   }
 }

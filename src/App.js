@@ -59,7 +59,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h2 className={dark ? 'dark-sig' : 'sig'}>PA</h2>
-        <h1 className={dark ? 'dark-title' : 'title'}>Hi, I'm Patrick. I design and build user interfaces.</h1>
+        <h1 className={dark ? 'dark-title' : 'title'}>Cybersecurity student with Python, SQL, and Pentesting skills, seeking entry-level opportunities</h1>
         <button className="toggle-button" onClick={() => setDark(!dark)}>
           <img src={bightness} alt="img" />
         </button>
